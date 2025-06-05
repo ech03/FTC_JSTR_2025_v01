@@ -1,0 +1,18 @@
+{
+  "wheelRadius": 1.88976,           // inches (48 mm REV mecanum wheels)
+  "gearRatio": 1.0,                 // output (wheel) speed / motor speed
+  "trackWidth": 14.25,              // inches between left and right wheels
+  "lateralMultiplier": 1.05,        // adjust for lateral wheel slippage
+  "encoderTicksPerRev": 8192,       // REV Through-Bore encoder spec
+  "odometryWheelRadius": 1.0,       // inches, if using 2” omni wheels
+  "odometryGearRatio": 1.0,         // typically 1.0 unless geared
+  "pidCoefficients": {
+    "kP": 10.0,
+    "kI": 0.0,
+    "kD": 1.0
+  },
+  "maxVel": 50.0,                   // inches per second
+  "maxAccel": 50.0,                 // inches per second^2
+  "maxAngVel": 3.1416,              // radians per second (~180 deg/s)
+  "maxAngAccel": 3.1416             // radians per second^2
+}

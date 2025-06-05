@@ -1,0 +1,16 @@
+
+******************************************************************************************
+******************* Control Hub Hardware Configuration (Match These Names) *******************
+******************************************************************************************
+Device	Port	Name
+DcMotor	Port 0	lf
+DcMotor	Port 1	lr
+DcMotor	Port 2	rf
+DcMotor	Port 3	rr
+REV Encoder	Encoder A/B	leftOdo
+REV Encoder	Encoder A/B	rightOdo
+REV Encoder	Encoder A/B	centerOdo
+BNO055 IMU	I2C Bus 0	imu
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////
